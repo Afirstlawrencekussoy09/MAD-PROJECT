@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/yuhu"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="620dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:padding="1dp"
+        android:text="WELCOME!"
+        android:textAlignment="center"
+        android:textColor="#935B6E"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:layout_marginTop="120dp"/>
+    <TextView
+        android:id="@+id/title1"
+        android:layout_width="720dp"
+        android:layout_height="20dp"
+        android:layout_marginBottom="5dp"
+        android:padding="1dp"
+        android:text="Join your campus life with Jasmine 1 Dormitory"
+        android:textAlignment="center"
+        android:textColor="#935B6E"
+        android:textSize="15sp"
+        android:textStyle="italic"
+        android:typeface="sans"/>
+    <Button
+        android:id="@+id/getstartedButton"
+        android:layout_width="240dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="60dp"
+        android:backgroundTint="#A49C7180"
+        android:text="Get Started"
+        android:textSize="18sp"
+        app:cornerRadius="20dp" />
+
+</LinearLayout>
